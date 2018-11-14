@@ -23,7 +23,7 @@ $(document).ready(function() {
         $(".folderContent").hide();
         $("#projects_folder").slideToggle("fast");
     });
-		$("#projects").on("click", function (event) {
+		$("#projects_folder").on("click", function (event) {
 			event.stopPropagation();
 		});
 });
