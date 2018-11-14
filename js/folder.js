@@ -4,8 +4,6 @@ $(document).ready(function() {
         event.stopPropagation();
         $(".folderContent").hide();
         $("#me_folder").slideToggle("fast");
-         //$('.folder').hide();
-         //$('.folder').css("pointer-events", "none");
     });
 		$("#me_folder").on("click", function (event) {
 			event.stopPropagation();
