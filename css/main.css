@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body
+{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+
+    background-color: #fff;
+}
+
+.profile
+{
+    display: block;
+
+    width: 200px;
+    margin: auto;
+
+    text-align: center;
+
+    border-radius: 50%;
+}
+.silhouette
+{
+    display: block;
+
+    width: 200px;
+    margin: auto;
+
+    text-align: center;
+}
+
+h2
+{
+    font-size: 36px;
+    font-weight: normal;
+
+    padding-top: 10px;
+
+    text-align: center;
+}
+
+h4
+{
+    font-weight: normal;
+
+    margin-top: -20px;
+
+    text-align: center;
+
+    color: gray;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    overflow: hidden;
+}
+.row,
+.folderContent
+{
+    overflow: hidden;
+
+    padding: 5px;
+}
+.row
+{
+    height: 25px;
+}
+.folderContent
+{
+    display: none;height: auto;
+
+    text-align: left;background-color: #000;
+}
+.folderName
+{
+    font-weight: bold;
+
+    color: #fff;
+}
+.folder
+{
+    font-size: 1em;
+
+    display: inline-block; overflow: hidden; cursor: pointer;
+}
+.folder_p
+{
+    width: 500px; margin: auto;
+
+    text-indent: 20px;
+
+    color: #fff;
+}
+.links
+{
+    padding-top: 10px;
+}
+.float_r
+{
+    float: right;
+    overflow: auto;
+
+    padding: 10px;
+}
+.float_l
+{
+    float: left;
+    overflow: auto;
+
+    padding: 10px;
+}
